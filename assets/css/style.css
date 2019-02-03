@@ -18,7 +18,7 @@ body {
 }
 
 /* header */
-
+/* Comment this out
 #topheader {
     background: #fff;
     margin: 0 0 30px;
@@ -29,6 +29,7 @@ body {
     position: fixed;
     width: 100%;
 }
+
 
 #logo {
     width: 250px;
@@ -58,6 +59,31 @@ nav a {
     padding-left: 15px;
     line-height: 18px;
 }
+*/
+.navbar-nav {
+    padding-top: 20px;
+    float: right;
+    font-size: 18px;
+}
+
+
+.navbar-default {
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
+
+.navbar-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: #4aaaa5;
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 700;
+}
 
 h1, h2, h3, p {
     margin-bottom: 20px;
@@ -85,7 +111,7 @@ h2, h3 {
 }
 
 #main-container {
-    padding-top: 130px;
+    padding-top: 30px;
 }
 
 /* main */
