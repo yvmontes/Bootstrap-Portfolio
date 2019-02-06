@@ -72,6 +72,10 @@ nav a {
     border-bottom: 2px solid #ccc;
 }
 
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
 
 .navbar-header {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -126,7 +130,6 @@ h2, h3 {
 }
 
 .auth-image {
-    
     height: auto;
     margin-top: 10px;
     float: left;
@@ -178,7 +181,7 @@ footer {
 /* portfolio */
 
 .work {
-    width: 274px;
+    /* width: 274px; */
     overflow: auto;
     position: relative;
     float: left;
